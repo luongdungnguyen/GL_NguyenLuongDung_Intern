@@ -15,6 +15,7 @@ int main()
     cout<<"\nBai2: ";
     do
     {
+        cin>>n;
      cout<<"So duong ban vua nhap la "<<n;
     }while(n<=0);
 }
