@@ -4,18 +4,19 @@ using namespace std;
 
 int main()
 {
-    int n,S=1;
-    cout<<"Nhap n :";cin>>n;
+    int x,y,S=1;
+    cout<<"Nhap x :";cin>>x;
     cout<<"Bai 1 : ";
-    for(int i=1;i<=n;i++)
+    for(int i=1;i<=x;i++)
     {
         S*=i;
     }
-    cout<<"n! = "<<S;
+    cout<<"x! = "<<S;
     cout<<"\nBai2: ";
-    do
-    {
-        cin>>n;
-     cout<<"So duong ban vua nhap la "<<n;
-    }while(n<=0);
+    tryagain:
+     cout<<"\nNhap y :";
+     cin>>y;
+     if(y<=0) {cout<<"So ban vua nhap khong phai so duong"<<endl;goto tryagain;}
+      else cout<<"\nSo duong ban vua nhap la "<<y;
+
 }
