@@ -1,5 +1,0 @@
-Tên game : Chiến binh cuối cùng
-Ý tưởng : Xây dựng 1 game thể loại platform gồm nhiều màn chơi, người chơi sẽ
-điều khiển nhân vật của mình là một chiến binh vượt qua các chướng ngại vật và
-quái vật trên đường đi để cứu dân làng của mình đang bị bắt giữ, game sẽ có 
-1 hệ thống item để giúp người chơi dễ dàng tăng khả năng qua ải .
